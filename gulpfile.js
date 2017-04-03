@@ -4,8 +4,6 @@ const autoprefixer = require('gulp-autoprefixer'),
     concat = require('gulp-concat'),
     del = require('del'),
     gulp = require('gulp'),
-    rev = require('gulp-rev'),
-    revdel = require('gulp-rev-delete-original'),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps');
 
