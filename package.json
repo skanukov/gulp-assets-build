@@ -1,0 +1,23 @@
+{
+    "name": "gulp-assets-build",
+    "version": "0.1.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "node ./node_modules/gulp/bin/gulp.js",
+        "prod": "node ./node_modules/gulp/bin/gulp.js prod"
+    },
+    "devDependencies": {
+        "del": "^2.2",
+        "gulp": "gulpjs/gulp#4.0",
+        "gulp-autoprefixer": "^3.1",
+        "gulp-babili": "^0.0",
+        "gulp-clean-css": "^3.0",
+        "gulp-concat": "^2.6",
+        "gulp-rev": "^7.1",
+        "gulp-rev-delete-original": "^0.2",
+        "gulp-sass": "^3.1",
+        "gulp-sourcemaps": "^2.5",
+        "node-sass": "^4.5"
+    }
+}
