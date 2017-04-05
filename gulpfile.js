@@ -209,8 +209,8 @@ gulp.task('build-prod', gulp.parallel('scripts-prod', 'styles-prod', 'images'));
 
 // Watch for assets change.
 gulp.task('watch', () => {
-    gulp.watch(path.src.scripts, gulp.parallel('scripts'));
-    gulp.watch(path.src.styles, gulp.parallel('styles'));
+    gulp.watch(path.src.scripts, { usePolling: true }, gulp.parallel('scripts'));
+    gulp.watch(path.src.styles, { usePolling: true }, gulp.parallel('styles'));
 });
 
 // The default task (called when you run `gulp` from cli).
